@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>firebase phone number auth</title>
+        <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+        <script>
+            
+            const config = {
+                apiKey: "AIzaSyCeH6Ai_BbJyPVvg2_q8guV8U5f7kNWXOw",
+                authDomain: "fir-auth-859f2.firebaseapp.com",
+                projectId: "fir-auth-859f2",
+                storageBucket: "fir-auth-859f2.appspot.com",
+                messagingSenderId: "832043890635",
+                appId: "1:832043890635:web:ae5ad59effd777b2dca84e"
+            };
+            firebase.initializeApp(config);
+
+        </script>
+        <style>
+            button { display: block; }
+        </style>
+    </head>
+    <body>
+
+        phone <input>
+        
+        <button onclick="auth()">auth</button>
+        <label>User :</label>
+        
+        <div id="recaptcha"></div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
